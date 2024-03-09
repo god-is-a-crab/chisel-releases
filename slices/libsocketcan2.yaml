@@ -1,0 +1,8 @@
+package: libsocketcan2
+
+slices:
+  libs:
+    essential:
+      - libc6_libs
+    contents:
+      /usr/lib/*-linux-*/libsocketcan.so.2*:

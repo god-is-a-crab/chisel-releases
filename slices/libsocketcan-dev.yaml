@@ -1,0 +1,9 @@
+package: libsocketcan-dev
+
+slices:
+  libs:
+    essential:
+      - libsocketcan2_libs
+    contents:
+      /usr/lib/*-linux-*/libsocketcan.so:
+      /usr/lib/*-linux-*/libsocketcan.a:
